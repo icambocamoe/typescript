@@ -34,6 +34,7 @@ function deleteEstacion(graph: { [key: string]: NodoEstacion[] }, keyToDel: stri
                     console.log(`Deleted estacion from ${key}`);
                 } else {
                     console.log(`Estacion not found in ${key}`);
+                    
                 }
             }
         });
