@@ -3,7 +3,7 @@
 
 
 // Class Declaration
-export class Estacion {
+export class NodoEstacion {
   // Properties
   private nombre: string;
   private lineas: string[] ;
@@ -20,24 +20,25 @@ export class Estacion {
     this.horario = horario;    
     this.extra1 = extra1;    
     this.extra2 = extra2;  
+     
   }
 
   // Methods
-  public print(): void {
-    console.log("Estacion")
-    console.log("nombre "+this.nombre)
-    console.log("lineas "+this.lineas)
-    console.log("direccion "+this.direccion)
-    console.log("horario "+this.horario)
-    console.log("extra1 "+this.extra1)
-    console.log("extra2 "+this.extra2 )
-    console.log("******************" )
+  public print(): string {
+  
+    return `nombre ${this.nombre}
+    lineas ${this.lineas}
+    direccion ${this.direccion}
+    horario ${this.horario}
+    extra1 ${this.extra1}
+    extra2 ${this.extra2}`;
+    
   }
 
-  public getNombre(): String {
+  public getNombre(): string {
     return this.nombre
   }
 }
 
 // Export default (optional)
-export default Estacion;
+export default NodoEstacion;

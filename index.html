@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #map {
+            height: 50vh;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <nav>
+        <ul class="flex space-x-4 bg-blue-600 p-4">
+            <li><a href="#guardar" class="text-white hover:text-blue-300">Guardar Estacion</a></li>
+            <li><a href="#lista" class="text-white hover:text-blue-300">Lista de adyacencia</a></li>
+            <li><a href="#paginas" class="text-white hover:text-blue-300">Estaciones completas</a></li>
+
+        </ul>
+    </nav>
+
+    <div id="app"></div>
+
+    <section id="guardar">
+        <div class="max-w-2xl mx-auto py-10">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h1 class="text-2xl font-bold mb-4">Agregar Estación</h1>
+
+                <form class="space-y-4">
+
+                    <!-- Nombre -->
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2" for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre"
+                            class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Nombre de la estación">
+                    </div>
+
+                    <!-- Lineas -->
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2" for="lineas">Lineas:</label>
+                        <input type="text" id="lineas" name="lineas"
+                            class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Lineas separadas por coma">
+                    </div>
+
+                    <!-- Lineas -->
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2" for="adyacencias">Estacion anterior y
+                            posterior:</label>
+                        <input type="text" id="adyacencias" name="adyacencias"
+                            class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Estaciones separadas por coma">
+                    </div>
+                    <!-- Dirección -->
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2" for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion"
+                            class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Dirección de la estación">
+                    </div>
+
+                    <!-- Horario -->
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2" for="horario">Horario:</label>
+                        <input type="text" id="horario" name="horario"
+                            class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Horario de la estación">
+                    </div>
+
+                    <!-- Extra1 -->
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2" for="extra1">Extra 1:</label>
+                        <input type="text" id="extra1" name="extra1"
+                            class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Información adicional 1">
+                    </div>
+
+                    <!-- Extra2 -->
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2" for="extra2">Extra 2:</label>
+                        <input type="number" id="extra2" name="extra2"
+                            class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Número adicional">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div>
+                        <button id="save-button" type="submit"
+                            class="w-full bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600 transition duration-200">Guardar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <section id="lista" class="max-w-2xl mx-auto py-10">
+        <!-- Navigation buttons -->
+        <div class="flex justify-between mt-6">
+            <button id="up-button" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+                Move Up
+            </button>
+            <button id="delete-button" type="submit"
+                class="justify-between bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600 transition duration-200">Eliminar</button>
+
+            <button id="down-button" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+                Move Down
+            </button>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-md text-center mx-auto">
+            <!-- Display the current node and its estaciones -->
+            <h2 class="text-2xl font-bold mb-4" id="current-node">Central</h2>
+            <ul id="stations-list" class="text-lg text-left mb-4 list-disc pl-6">
+                <!-- Stations will be dynamically inserted here -->
+            </ul>
+
+
+        </div>
+
+    </section>
+    <section>
+        <div id="matrixContainer"></div>
+    </section>
+    <section id="paginas" class="py-8 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-bold text-center mb-6">Lista de todas las estaciones</h1>
+            <div id="itemsContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6"></div>
+            <div class="pagination flex justify-center space-x-4 mt-6">
+                <button id="prevBtn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                    Previous
+                </button>
+                <button id="nextBtn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                    Next
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md mt-8">
+            <h1 class="text-2xl font-bold text-center text-gray-800 mb-6">Select Locations</h1>
+
+            <div class="mb-4">
+                <label for="source" class="block text-gray-700 font-medium mb-2">Source:</label>
+                <select id="source"
+                    class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="" disabled selected>Select source</option>
+                </select>
+            </div>
+
+            <div class="mb-4">
+                <label for="destination" class="block text-gray-700 font-medium mb-2">Destination:</label>
+                <select id="destination"
+                    class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="" disabled selected>Select destination</option>
+                </select>
+            </div>
+
+            <button id="findPath"
+                class="w-full bg-blue-500 text-white font-medium py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">Find
+                Path</button>
+
+            <p id="result" class="mt-4 text-center text-gray-700"></p>
+
+
+        </div>
+        <!-- Centered Map -->
+        <div class="flex justify-center mt-6">
+            <div id="map" class="w-full max-w-4xl h-64 bg-gray-200 rounded-lg"></div>
+        </div>  
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCatCTtTOKVthjW_OLY2oeWz_UqxAqFPpc&&loading=async&callback=initMap&libraries=map,marker"></script>
+    </section>
+
+    <script type="module" src="./dist/assets/interfaces/Estacion.js"></script>
+    <script type="module" src="./dist/main.js"></script>
+    <script type="module" src="./dist/NodoEstacion.js"></script>
+    <script type="module" src="./dist/app.js"></script>
+
+</body>
+
+
+
+</html>

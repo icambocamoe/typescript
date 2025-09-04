@@ -1,21 +1,21 @@
 import { LinkedList } from 'typescript-collections';
-import { Estacion } from './Estacion';
+import { NodoEstacion } from './NodoEstacion';
 export class GrafoEstacion {
     constructor(){
 
     }
-    public createVecinos(...estaciones: Estacion[]): LinkedList<Estacion> {
-        const vecinos = new LinkedList<Estacion>();
+    public createVecinos(...estaciones: NodoEstacion[]): LinkedList<NodoEstacion> {
+        const vecinos = new LinkedList<NodoEstacion>();
         estaciones.forEach(estacion => vecinos.add(estacion));
         return vecinos;
     }
 
-    public addEstacionToVecindad(vecindad: Map<Estacion, LinkedList<Estacion>>, estacion: Estacion, vecinos: LinkedList<Estacion>) {
+    public addEstacionToVecindad(vecindad: Map<NodoEstacion, LinkedList<NodoEstacion>>, estacion: NodoEstacion, vecinos: LinkedList<NodoEstacion>) {
         vecindad.set(estacion, vecinos);
     }
 
-    public findVecinos(requested_estacion: String, vecindad: Map<Estacion, LinkedList<Estacion>>): String{
-        let output: string="";
+    public findVecinos(requested_estacion: String, vecindad: Map<NodoEstacion, LinkedList<NodoEstacion>>) {
+       
         vecindad.forEach((vecinos, estacion) => {
             if (estacion.getNombre() == requested_estacion){
                 // Start the output string with the current estacion
@@ -25,11 +25,14 @@ export class GrafoEstacion {
                 vecinos.toArray().forEach(vecino => {
                     output += ` -> ${vecino.getNombre()}`;
                 });
+                console.log(output);
             }
+            
         });
-        return output;
+        
+        
     }
-    public getEstaciones(vecindad: Map<Estacion, LinkedList<Estacion>>): String{
+    public getEstaciones(vecindad: Map<NodoEstacion, LinkedList<NodoEstacion>>): String{
         let output: string="";
         // Iterate and print
         vecindad.forEach((vecinos, estacion) => {
@@ -46,4 +49,4 @@ export class GrafoEstacion {
 }
 
 // Export default (optional)
-export default Estacion;
+export default GrafoEstacion;

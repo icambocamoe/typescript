@@ -1,0 +1,104 @@
+const l2 = [
+    {
+        "Nombre": "Juárez II",
+        "Municipio": "Guadalajara",
+        "Conexion": "L1",
+        "Coordenadas": {
+            "latitude": 20.6748944,
+            "longitude": -103.3551472
+        },
+        "Linea": "L2",
+    },
+    {
+        "Nombre": "Plaza Universidad",
+        "Municipio": "Guadalajara",
+        "Conexion": "L3",
+        "Coordenadas": {
+            "latitude": 20.6751056,
+            "longitude": -103.3480972
+        },
+        "Linea": "L2",
+    },
+    {
+        "Nombre": "San Juan de Dios",
+        "Municipio": "Guadalajara",
+        "Conexion": "MC",
+        "Coordenadas": {
+            "latitude": 20.6752139,
+            "longitude": -103.3408417
+        },
+        "Linea": "L2",
+    },
+    {
+        "Nombre": "Belisario Domínguez",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6727389,
+            "longitude": -103.3314556
+        },
+        "Linea": "L2",
+    },
+    {
+        "Nombre": "Oblatos",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6702833,
+            "longitude": -103.3225
+        },
+        "Linea": "L2",
+    },
+    {
+        "Nombre": "Cristóbal de Oñate",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6675139,
+            "longitude": -103.313375
+        },
+        "Linea": "L2",
+    },
+    {
+        "Nombre": "San Andrés",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6652889,
+            "longitude": -103.3060806
+        },
+        "Linea": "L2",
+    },
+    {
+        "Nombre": "San Jacinto",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6638833,
+            "longitude": -103.297278
+        },
+        "Linea": "L2",
+    },
+    {
+        "Nombre": "La Aurora",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6624694,
+            "longitude": -103.2855444
+        },
+        "Linea": "L2",
+    },
+    {
+        "Nombre": "Tetlán",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6597861,
+            "longitude": -103.2759694
+        },
+        "Linea": "L2",
+    }
+];
+export default l2;
+//# sourceMappingURL=l2.js.map

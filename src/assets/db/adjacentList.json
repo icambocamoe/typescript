@@ -1,0 +1,837 @@
+[
+    {
+        "Nombre": "Auditorio",
+        "neighbors": [
+            "Periférico Norte"
+        ]
+    },
+    {
+        "Nombre": "Periférico Norte",
+        "neighbors": [
+            "Dermatológico",
+            "Auditorio",
+            "MP, Periférico Norte"
+        ]
+    },
+    {
+        "Nombre": "Dermatológico",
+        "neighbors": [
+            "Atemajac",
+            "Periférico Norte"
+        ]
+    },
+    {
+        "Nombre": "Atemajac",
+        "neighbors": [
+            "División del Norte",
+            "Dermatológico"
+        ]
+    },
+    {
+        "Nombre": "División del Norte",
+        "neighbors": [
+            "Ávila Camacho",
+            "Atemajac"
+        ]
+    },
+    {
+        "Nombre": "Ávila Camacho",
+        "neighbors": [
+            "Mezquitán",
+            "División del Norte",
+            "L3, Ávila Camacho"
+        ]
+    },
+    {
+        "Nombre": "Mezquitán",
+        "neighbors": [
+            "Refugio",
+            "Ávila Camacho"
+        ]
+    },
+    {
+        "Nombre": "Refugio",
+        "neighbors": [
+            "Juárez",
+            "Mezquitán"
+        ]
+    },
+    {
+        "Nombre": "Juárez",
+        "neighbors": [
+            "Mexicaltzingo",
+            "Refugio",
+            "L2, Juárez II"
+        ]
+    },
+    {
+        "Nombre": "Mexicaltzingo",
+        "neighbors": [
+            "Washington",
+            "Juárez"
+        ]
+    },
+    {
+        "Nombre": "Washington",
+        "neighbors": [
+            "Santa Filomena",
+            "Mexicaltzingo"
+        ]
+    },
+    {
+        "Nombre": "Santa Filomena",
+        "neighbors": [
+            "Unidad Deportiva",
+            "Washington"
+        ]
+    },
+    {
+        "Nombre": "Unidad Deportiva",
+        "neighbors": [
+            "Urdaneta",
+            "Santa Filomena"
+        ]
+    },
+    {
+        "Nombre": "Urdaneta",
+        "neighbors": [
+            "18 de Marzo",
+            "Unidad Deportiva"
+        ]
+    },
+    {
+        "Nombre": "18 de Marzo",
+        "neighbors": [
+            "Isla Raza",
+            "Urdaneta"
+        ]
+    },
+    {
+        "Nombre": "Isla Raza",
+        "neighbors": [
+            "Patria",
+            "18 de Marzo"
+        ]
+    },
+    {
+        "Nombre": "Patria",
+        "neighbors": [
+            "España",
+            "Isla Raza"
+        ]
+    },
+    {
+        "Nombre": "España",
+        "neighbors": [
+            "Santuario Mártires de Cristo Rey",
+            "Patria"
+        ]
+    },
+    {
+        "Nombre": "Santuario Mártires de Cristo Rey",
+        "neighbors": [
+            "Periférico Sur",
+            "España"
+        ]
+    },
+    {
+        "Nombre": "Periférico Sur",
+        "neighbors": [
+            "Santuario Mártires de Cristo Rey",
+            "MP, Periférico Sur"
+        ]
+    },
+    {
+        "Nombre": "Juárez II",
+        "neighbors": [
+            "Plaza Universidad",
+            "L1, Juárez",
+            "L3, Guadalajara Centro"
+        ]
+    },
+    {
+        "Nombre": "Plaza Universidad",
+        "neighbors": [
+            "San Juan de Dios",
+            "Juárez II",
+            "MC, San Juan de Dios"
+        ]
+    },
+    {
+        "Nombre": "San Juan de Dios",
+        "neighbors": [
+            "Belisario Domínguez",
+            "Plaza Universidad"
+        ]
+    },
+    {
+        "Nombre": "Belisario Domínguez",
+        "neighbors": [
+            "Oblatos",
+            "San Juan de Dios"
+        ]
+    },
+    {
+        "Nombre": "Oblatos",
+        "neighbors": [
+            "Cristóbal de Oñate",
+            "Belisario Domínguez"
+        ]
+    },
+    {
+        "Nombre": "Cristóbal de Oñate",
+        "neighbors": [
+            "San Andrés",
+            "Oblatos"
+        ]
+    },
+    {
+        "Nombre": "San Andrés",
+        "neighbors": [
+            "San Jacinto",
+            "Cristóbal de Oñate"
+        ]
+    },
+    {
+        "Nombre": "San Jacinto",
+        "neighbors": [
+            "La Aurora",
+            "San Andrés"
+        ]
+    },
+    {
+        "Nombre": "La Aurora",
+        "neighbors": [
+            "Tetlán",
+            "San Jacinto"
+        ]
+    },
+    {
+        "Nombre": "Tetlán",
+        "neighbors": [
+            "La Aurora"
+        ]
+    },
+    {
+        "Nombre": "Arcos de Zapopan",
+        "neighbors": [
+            "Periférico Belenes"
+        ]
+    },
+    {
+        "Nombre": "Periférico Belenes",
+        "neighbors": [
+            "Mercado del Mar",
+            "Arcos de Zapopan",
+            "MP, Periférico Belenes"
+        ]
+    },
+    {
+        "Nombre": "Mercado del Mar",
+        "neighbors": [
+            "Zapopan Centro",
+            "Periférico Belenes"
+        ]
+    },
+    {
+        "Nombre": "Zapopan Centro",
+        "neighbors": [
+            "Plaza Patria",
+            "Mercado del Mar"
+        ]
+    },
+    {
+        "Nombre": "Plaza Patria",
+        "neighbors": [
+            "Circunvalación Country",
+            "Zapopan Centro"
+        ]
+    },
+    {
+        "Nombre": "Circunvalación Country",
+        "neighbors": [
+            "Ávila Camacho",
+            "Plaza Patria"
+        ]
+    },
+    {
+        "Nombre": "Ávila Camacho",
+        "neighbors": [
+            "La Normal",
+            "Circunvalación Country",
+            "L1, Ávila Camacho"
+        ]
+    },
+    {
+        "Nombre": "La Normal",
+        "neighbors": [
+            "Santuario",
+            "Ávila Camacho"
+        ]
+    },
+    {
+        "Nombre": "Santuario",
+        "neighbors": [
+            "Guadalajara Centro",
+            "La Normal"
+        ]
+    },
+    {
+        "Nombre": "Guadalajara Centro",
+        "neighbors": [
+            "Independencia",
+            "Santuario",
+            "L2, Plaza Universidad"
+        ]
+    },
+    {
+        "Nombre": "Independencia",
+        "neighbors": [
+            "Plaza de la Bandera",
+            "Guadalajara Centro",
+            "MC, Bicentenario"
+        ]
+    },
+    {
+        "Nombre": "Plaza de la Bandera",
+        "neighbors": [
+            "CUCEI",
+            "Independencia"
+        ]
+    },
+    {
+        "Nombre": "CUCEI",
+        "neighbors": [
+            "Revolución",
+            "Plaza de la Bandera"
+        ]
+    },
+    {
+        "Nombre": "Revolución",
+        "neighbors": [
+            "Río Nilo",
+            "CUCEI"
+        ]
+    },
+    {
+        "Nombre": "Río Nilo",
+        "neighbors": [
+            "Tlaquepaque Centro",
+            "Revolución"
+        ]
+    },
+    {
+        "Nombre": "Tlaquepaque Centro",
+        "neighbors": [
+            "Estación Lázaro Cárdenas",
+            "Río Nilo"
+        ]
+    },
+    {
+        "Nombre": "Estación Lázaro Cárdenas",
+        "neighbors": [
+            "Central de Autobuses",
+            "Tlaquepaque Centro"
+        ]
+    },
+    {
+        "Nombre": "Central de Autobuses",
+        "neighbors": [
+            "Estación Lázaro Cárdenas"
+        ]
+    },
+    {
+        "Nombre": "Mirador",
+        "neighbors": [
+            "Huentitán"
+        ]
+    },
+    {
+        "Nombre": "Huentitán",
+        "neighbors": [
+            "Zoológico",
+            "Mirador"
+        ]
+    },
+    {
+        "Nombre": "Zoológico",
+        "neighbors": [
+            "Independencia Norte",
+            "Huentitán"
+        ]
+    },
+    {
+        "Nombre": "Independencia Norte",
+        "neighbors": [
+            "San Patricio",
+            "Zoológico",
+            "MP, Independencia Norte"
+        ]
+    },
+    {
+        "Nombre": "San Patricio",
+        "neighbors": [
+            "Igualdad",
+            "Independencia Norte"
+        ]
+    },
+    {
+        "Nombre": "Igualdad",
+        "neighbors": [
+            "Monumental",
+            "San Patricio"
+        ]
+    },
+    {
+        "Nombre": "Monumental",
+        "neighbors": [
+            "Monte Olivete",
+            "Igualdad"
+        ]
+    },
+    {
+        "Nombre": "Monte Olivete",
+        "neighbors": [
+            "Circunvalación",
+            "Monumental"
+        ]
+    },
+    {
+        "Nombre": "Circunvalación",
+        "neighbors": [
+            "Ciencias de la Salud",
+            "Monte Olivete"
+        ]
+    },
+    {
+        "Nombre": "Ciencias de la Salud",
+        "neighbors": [
+            "Juan Álvarez",
+            "Circunvalación"
+        ]
+    },
+    {
+        "Nombre": "Juan Álvarez",
+        "neighbors": [
+            "Alameda",
+            "Ciencias de la Salud"
+        ]
+    },
+    {
+        "Nombre": "Alameda",
+        "neighbors": [
+            "San Juan de Dios",
+            "Juan Álvarez"
+        ]
+    },
+    {
+        "Nombre": "San Juan de Dios",
+        "neighbors": [
+            "Bicentenario",
+            "Alameda",
+            "L2, San Juan de Dios"
+        ]
+    },
+    {
+        "Nombre": "Bicentenario",
+        "neighbors": [
+            "La Paz",
+            "San Juan de Dios",
+            "L3, Independencia"
+        ]
+    },
+    {
+        "Nombre": "La Paz",
+        "neighbors": [
+            "Niños Héroes",
+            "Bicentenario"
+        ]
+    },
+    {
+        "Nombre": "Niños Héroes",
+        "neighbors": [
+            "Agua Azul",
+            "La Paz"
+        ]
+    },
+    {
+        "Nombre": "Agua Azul",
+        "neighbors": [
+            "Ciprés",
+            "Niños Héroes"
+        ]
+    },
+    {
+        "Nombre": "Ciprés",
+        "neighbors": [
+            "Héroes de Nacozari",
+            "Agua Azul"
+        ]
+    },
+    {
+        "Nombre": "Héroes de Nacozari",
+        "neighbors": [
+            "Lázaro Cárdenas",
+            "Ciprés"
+        ]
+    },
+    {
+        "Nombre": "Lázaro Cárdenas",
+        "neighbors": [
+            "El Deán",
+            "Héroes de Nacozari"
+        ]
+    },
+    {
+        "Nombre": "El Deán",
+        "neighbors": [
+            "Zona Industrial",
+            "Lázaro Cárdenas"
+        ]
+    },
+    {
+        "Nombre": "Zona Industrial",
+        "neighbors": [
+            "López de Legazpi",
+            "El Deán"
+        ]
+    },
+    {
+        "Nombre": "López de Legazpi",
+        "neighbors": [
+            "Clemente Orozco",
+            "Zona Industrial"
+        ]
+    },
+    {
+        "Nombre": "Clemente Orozco",
+        "neighbors": [
+            "Artes Plásticas",
+            "López de Legazpi"
+        ]
+    },
+    {
+        "Nombre": "Artes Plásticas",
+        "neighbors": [
+            "Esculturas",
+            "Clemente Orozco"
+        ]
+    },
+    {
+        "Nombre": "Esculturas",
+        "neighbors": [
+            "Fray Angélico",
+            "Artes Plásticas"
+        ]
+    },
+    {
+        "Nombre": "Fray Angélico",
+        "neighbors": [
+            "Las Juntas",
+            "Esculturas"
+        ]
+    },
+    {
+        "Nombre": "Las Juntas",
+        "neighbors": [
+            "Fray Angélico",
+            "L4, tlajotren"
+        ]
+    },
+    {
+        "Nombre": "Carretera a Chapala",
+        "neighbors": [
+            "Las Pintas"
+        ]
+    },
+    {
+        "Nombre": "Las Pintas",
+        "neighbors": [
+            "Artesanos",
+            "Carretera a Chapala"
+        ]
+    },
+    {
+        "Nombre": "Artesanos",
+        "neighbors": [
+            "Adolf Horn",
+            "Las Pintas"
+        ]
+    },
+    {
+        "Nombre": "Adolf Horn",
+        "neighbors": [
+            "Toluquilla",
+            "Artesanos"
+        ]
+    },
+    {
+        "Nombre": "Toluquilla",
+        "neighbors": [
+            "8 de Julio",
+            "Adolf Horn"
+        ]
+    },
+    {
+        "Nombre": "8 de Julio",
+        "neighbors": [
+            "San Sebastianito",
+            "Toluquilla"
+        ]
+    },
+    {
+        "Nombre": "San Sebastianito",
+        "neighbors": [
+            "Periférico Sur",
+            "8 de Julio"
+        ]
+    },
+    {
+        "Nombre": "Periférico Sur",
+        "neighbors": [
+            "Terminal Sur de Autobuses",
+            "San Sebastianito",
+            "L1, Periférico Sur"
+        ]
+    },
+    {
+        "Nombre": "Terminal Sur de Autobuses",
+        "neighbors": [
+            "ITESO",
+            "Periférico Sur"
+        ]
+    },
+    {
+        "Nombre": "ITESO",
+        "neighbors": [
+            "López Mateos",
+            "Terminal Sur de Autobuses"
+        ]
+    },
+    {
+        "Nombre": "López Mateos",
+        "neighbors": [
+            "Agrícola",
+            "ITESO"
+        ]
+    },
+    {
+        "Nombre": "Agrícola",
+        "neighbors": [
+            "El Briseño",
+            "López Mateos"
+        ]
+    },
+    {
+        "Nombre": "El Briseño",
+        "neighbors": [
+            "Mariano Otero",
+            "Agrícola"
+        ]
+    },
+    {
+        "Nombre": "Mariano Otero",
+        "neighbors": [
+            "Miramar",
+            "El Briseño"
+        ]
+    },
+    {
+        "Nombre": "Miramar",
+        "neighbors": [
+            "Felipe Ruvalcaba",
+            "Mariano Otero"
+        ]
+    },
+    {
+        "Nombre": "Felipe Ruvalcaba",
+        "neighbors": [
+            "El Colli",
+            "Miramar"
+        ]
+    },
+    {
+        "Nombre": "El Colli",
+        "neighbors": [
+            "Chapalita Inn",
+            "Felipe Ruvalcaba"
+        ]
+    },
+    {
+        "Nombre": "Chapalita Inn",
+        "neighbors": [
+            "Parque Metropolitano",
+            "El Colli"
+        ]
+    },
+    {
+        "Nombre": "Parque Metropolitano",
+        "neighbors": [
+            "Ciudad Granja",
+            "Chapalita Inn"
+        ]
+    },
+    {
+        "Nombre": "Ciudad Granja",
+        "neighbors": [
+            "Ciudad Judicial",
+            "Parque Metropolitano"
+        ]
+    },
+    {
+        "Nombre": "Ciudad Judicial",
+        "neighbors": [
+            "Estadio Chivas",
+            "Ciudad Granja"
+        ]
+    },
+    {
+        "Nombre": "Estadio Chivas",
+        "neighbors": [
+            "Vallarta",
+            "Ciudad Judicial"
+        ]
+    },
+    {
+        "Nombre": "Vallarta",
+        "neighbors": [
+            "San Juan de Ocotán",
+            "Estadio Chivas"
+        ]
+    },
+    {
+        "Nombre": "San Juan de Ocotán",
+        "neighbors": [
+            "5 de Mayo",
+            "Vallarta"
+        ]
+    },
+    {
+        "Nombre": "5 de Mayo",
+        "neighbors": [
+            "Acueducto",
+            "San Juan de Ocotán"
+        ]
+    },
+    {
+        "Nombre": "Acueducto",
+        "neighbors": [
+            "Santa Margarita",
+            "5 de Mayo"
+        ]
+    },
+    {
+        "Nombre": "Santa Margarita",
+        "neighbors": [
+            "La Tuzanía",
+            "Acueducto"
+        ]
+    },
+    {
+        "Nombre": "La Tuzanía",
+        "neighbors": [
+            "Periférico Belenes",
+            "Santa Margarita"
+        ]
+    },
+    {
+        "Nombre": "Periférico Belenes",
+        "neighbors": [
+            "San Isidro",
+            "La Tuzanía",
+            "L3, Periférico Belenes"
+        ]
+    },
+    {
+        "Nombre": "San Isidro",
+        "neighbors": [
+            "Centro Cultural Universitario",
+            "Periférico Belenes"
+        ]
+    },
+    {
+        "Nombre": "Centro Cultural Universitario",
+        "neighbors": [
+            "Constitución",
+            "San Isidro"
+        ]
+    },
+    {
+        "Nombre": "Constitución",
+        "neighbors": [
+            "Tabachines",
+            "Centro Cultural Universitario"
+        ]
+    },
+    {
+        "Nombre": "Tabachines",
+        "neighbors": [
+            "La Cantera",
+            "Constitución"
+        ]
+    },
+    {
+        "Nombre": "La Cantera",
+        "neighbors": [
+            "Periférico Norte",
+            "Tabachines"
+        ]
+    },
+    {
+        "Nombre": "Periférico Norte",
+        "neighbors": [
+            "El Batán",
+            "La Cantera",
+            "L1, Periférico Norte"
+        ]
+    },
+    {
+        "Nombre": "El Batán",
+        "neighbors": [
+            "La Experiencia",
+            "Periférico Norte"
+        ]
+    },
+    {
+        "Nombre": "La Experiencia",
+        "neighbors": [
+            "Rancho Nuevo",
+            "El Batán"
+        ]
+    },
+    {
+        "Nombre": "Rancho Nuevo",
+        "neighbors": [
+            "Lomas del Paraíso",
+            "La Experiencia"
+        ]
+    },
+    {
+        "Nombre": "Lomas del Paraíso",
+        "neighbors": [
+            "Independencia Norte",
+            "Rancho Nuevo"
+        ]
+    },
+    {
+        "Nombre": "Independencia Norte",
+        "neighbors": [
+            "Zoológico Guadalajara",
+            "Lomas del Paraíso",
+            "MC, Independencia Norte"
+        ]
+    },
+    {
+        "Nombre": "Zoológico Guadalajara",
+        "neighbors": [
+            "Barranca de Huentitán",
+            "Independencia Norte"
+        ]
+    },
+    {
+        "Nombre": "Barranca de Huentitán",
+        "neighbors": [
+            "Zoológico Guadalajara"
+        ]
+    }
+]

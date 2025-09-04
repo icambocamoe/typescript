@@ -1,13 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.GrafoEstacion = void 0;
-const typescript_collections_1 = require("typescript-collections");
-const Estacion_1 = require("./Estacion");
-class GrafoEstacion {
+import { LinkedList } from 'typescript-collections';
+export class GrafoEstacion {
     constructor() {
     }
     createVecinos(...estaciones) {
-        const vecinos = new typescript_collections_1.LinkedList();
+        const vecinos = new LinkedList();
         estaciones.forEach(estacion => vecinos.add(estacion));
         return vecinos;
     }
@@ -23,12 +19,12 @@ class GrafoEstacion {
                 vecinos.toArray().forEach(vecino => {
                     output += ` -> ${vecino.getNombre()}`;
                 });
-                // Print the final output string
                 console.log(output);
             }
         });
     }
-    imprimirEstaciones(vecindad) {
+    getEstaciones(vecindad) {
+        let output = "";
         // Iterate and print
         vecindad.forEach((vecinos, estacion) => {
             // Start the output string with the current estacion
@@ -37,11 +33,10 @@ class GrafoEstacion {
             vecinos.toArray().forEach(vecino => {
                 output += ` -> ${vecino.getNombre()}`;
             });
-            // Print the final output string
-            console.log(output);
         });
+        return output;
     }
 }
-exports.GrafoEstacion = GrafoEstacion;
 // Export default (optional)
-exports.default = Estacion_1.Estacion;
+export default GrafoEstacion;
+//# sourceMappingURL=GrafoEstacion.js.map

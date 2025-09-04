@@ -1,0 +1,422 @@
+[
+    {
+        "Nombre": "Carretera a Chapala",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.592170,
+            "longitude": -103.319430
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Las Pintas",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.587606,
+            "longitude": -103.326890
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Artesanos",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.582493,
+            "longitude": -103.336330
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Adolf Horn",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "L4",
+        "Coordenadas": {
+            "latitude": 20.577204,
+            "longitude": -103.360695
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Toluquilla",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.579315,
+            "longitude": -103.368910
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "8 de Julio",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.586727,
+            "longitude": -103.382600
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "San Sebastianito",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.590712,
+            "longitude": -103.385880
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Periférico Sur",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "L1",
+        "Coordenadas": {
+            "latitude": 20.605522,
+            "longitude": -103.400160
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Terminal Sur de Autobuses",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.608520,
+            "longitude": -103.407520
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "ITESO",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.610355,
+            "longitude": -103.415090
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "López Mateos",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.612822,
+            "longitude": -103.423775
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Agrícola",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.616802,
+            "longitude": -103.429050
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "El Briseño",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.625244,
+            "longitude": -103.433590
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Mariano Otero",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.632526,
+            "longitude": -103.436775
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Miramar",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.635942,
+            "longitude": -103.438200
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Felipe Ruvalcaba",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.643518,
+            "longitude": -103.441140
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "El Colli",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.648946,
+            "longitude": -103.443670
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Chapalita Inn",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.654902,
+            "longitude": -103.446120
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Parque Metropolitano",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.661626,
+            "longitude": -103.448906
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Ciudad Granja",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.675146,
+            "longitude": -103.455200
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Ciudad Judicial",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.680725,
+            "longitude": -103.455210
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Estadio Chivas",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.688255,
+            "longitude": -103.455345
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Vallarta",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.696404,
+            "longitude": -103.454575
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "San Juan de Ocotán",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.706457,
+            "longitude": -103.446510
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "5 de Mayo",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.710436,
+            "longitude": -103.439470
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Acueducto",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.722734,
+            "longitude": -103.421130
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Santa Margarita",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.730143,
+            "longitude": -103.412960
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "La Tuzanía",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.733295,
+            "longitude": -103.409485
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Periférico Belenes",
+        "Municipio": "Zapopan",
+        "Conexion": "L3",
+        "Coordenadas": {
+            "latitude": 20.738164,
+            "longitude": -103.403110
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "San Isidro",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.739285,
+            "longitude": -103.388220
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Centro Cultural Universitario",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.738233,
+            "longitude": -103.382160
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Constitución",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.736665,
+            "longitude": -103.376370
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Tabachines",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.734217,
+            "longitude": -103.363090
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "La Cantera",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.732323,
+            "longitude": -103.356100
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Periférico Norte",
+        "Municipio": "Zapopan",
+        "Conexion": "L1",
+        "Coordenadas": {
+            "latitude": 20.730747,
+            "longitude": -103.351170
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "El Batán",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.728285,
+            "longitude": -103.344574
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "La Experiencia",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.725754,
+            "longitude": -103.337610
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Rancho Nuevo",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.722484,
+            "longitude": -103.330350
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Lomas del Paraíso",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.721495,
+            "longitude": -103.326240
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Independencia Norte",
+        "Municipio": "Guadalajara",
+        "Conexion": "MP",
+        "Coordenadas": {
+            "latitude": 20.720460,
+            "longitude": -103.315999
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Zoológico Guadalajara",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.718001,
+            "longitude": -103.310930
+        },
+        "Linea":"MP"
+    },
+    {
+        "Nombre": "Barranca de Huentitán",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.712075,
+            "longitude": -103.300930
+        },
+        "Linea":"MP"
+    }
+]

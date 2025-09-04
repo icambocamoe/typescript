@@ -1,0 +1,35 @@
+/*
+// Sort by 'Nombre'
+//const sortedLocations = bubbleSort(l1, 'Nombre');
+/*const datasets = { l1, l2, l3, mc, mp };
+
+Object.entries(datasets).forEach(([key, dataset]) => {
+    const sortedDataset = bubbleSort(dataset, 'Nombre');
+    console.log(`Sorted ${key}:`, sortedDataset);
+});
+
+// Log the sorted locations
+//console.log(sortedLocations);
+// Combine all datasets into one
+/*const start = performance.now();
+// Sort the combined dataset by 'Nombre'
+const sortedCombinedDataset = bubbleSort(combinedDataset, 'Nombre');
+const end = performance.now();
+// Log the sorted combined dataset
+console.log('Sorted Combined Dataset:', sortedCombinedDataset);
+const timeElapsed = end - start;
+console.log(`Time taken: ${timeElapsed} milliseconds`);
+<strong>Municipio:</strong> ${item.Municipio}<br>
+<strong>Conexion:</strong> ${item.Conexion || 'N/A'}<br>
+<strong>Coordenadas:</strong> ${item.Coordenadas.latitude}, ${item.Coordenadas.longitude}
+const start = process.hrtime();
+const end = process.hrtime(start);
+const timeElapsed = (end[0] * 1000) + (end[1] / 1e6);
+const timeTaken =timeElapsed.toFixed(6)
+console.log(`Time taken: ${timeElapsed} milliseconds`);
+const performance = document.createElement('div');
+performance.innerHTML = `
+<strong>Tiempo de ordenamiento:</strong> ${} milliseconds<br>
+`;
+itemsContainer.appendChild(performance);
+*/

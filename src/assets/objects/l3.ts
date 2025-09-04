@@ -1,0 +1,185 @@
+import { Estacion } from '../interfaces/Estacion';
+const l3: Estacion[] =[
+    {
+        "Nombre": "Arcos de Zapopan",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.741225,
+            "longitude": -103.4074472
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Periférico Belenes",
+        "Municipio": "Zapopan",
+        "Conexion": "MP",
+        "Coordenadas": {
+            "latitude": 20.7381,
+            "longitude": -103.4030917
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Mercado del Mar",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.7288111,
+            "longitude": -103.3892417
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Zapopan Centro",
+        "Municipio": "Zapopan",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.71935,
+            "longitude": -103.3861167
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Plaza Patria",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.7121417,
+            "longitude": -103.3748667
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Circunvalacion Country",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.7064667,
+            "longitude": -103.3660139
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "avila Camacho",
+        "Municipio": "Guadalajara",
+        "Conexion": "L1",
+        "Coordenadas": {
+            "latitude": 20.6993861,
+            "longitude": -103.3549583
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "La Normal",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.695125,
+            "longitude": -103.348725
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Santuario",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6840444,
+            "longitude": -103.3478667
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Guadalajara Centro",
+        "Municipio": "Guadalajara",
+        "Conexion": "L2",
+        "Coordenadas": {
+            "latitude": 20.676194,
+            "longitude": -103.3473944
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Independencia",
+        "Municipio": "Guadalajara",
+        "Conexion": "MC",
+        "Coordenadas": {
+            "latitude": 20.67083,
+            "longitude": -103.3444389
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Plaza de la Bandera",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6651306,
+            "longitude": -103.332725
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "CUCEI",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6596417,
+            "longitude": -103.3240306
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Revolucion",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6509694,
+            "longitude": -103.310275
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Río Nilo",
+        "Municipio": "Guadalajara",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6447889,
+            "longitude": -103.304111
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Tlaquepaque Centro",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6375528,
+            "longitude": -103.2999694
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Estacion Lazaro Cardenas",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6321444,
+            "longitude": -103.2962306
+        },
+        "Linea":"L3",
+    },
+    {
+        "Nombre": "Central de Autobuses",
+        "Municipio": "Tlaquepaque",
+        "Conexion": "",
+        "Coordenadas": {
+            "latitude": 20.6231472,
+            "longitude": -103.2850583
+        },
+        "Linea":"L3",
+    }
+];
+
+export default l3;
